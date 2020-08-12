@@ -233,7 +233,7 @@ def send_meeting_email(recipient_data, meeting_details, time):
 
 
 def log_event():
-    log_folder_path = "/home/pi/Documents/NathanHoursSMS/logs"
+    log_folder_path = "/home/pi/Documents/Auto-Zoom-Scheduler/logs"
     filename = datetime.datetime.now().strftime("%d-%b-%Y (%H:%M:%S)")
 
     f = open("{}/{}.txt".format(log_folder_path, filename), "w")
@@ -243,14 +243,13 @@ def log_event():
 
 
 def main():
-    # 'morning' if datetime.datetime.now().hour in (8, 9) else 'evening'
-    meeting_time = 'evening'
+    meeting_time = 'morning' if datetime.datetime.now().hour in (8, 9) else 'evening'
     meeting_details = create_meeting(meeting_time)
     for recipient in recipients:
         response = send_meeting_email(recipient, meeting_details, meeting_time)
         log_content["emailResponses"].append(response)
-    # log_event()
-    print(json.dumps(log_content))
+    log_event()
+    #print(json.dumps(log_content))
 
 
 main()
