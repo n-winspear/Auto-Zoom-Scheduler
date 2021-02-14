@@ -236,7 +236,6 @@ def send_meeting_email(recipient_data, meeting_details, time):
     message = MIMEMultipart('alternative')
     message['Subject'] = "Morning Check In" if time == 'morning' else 'Evening Check Out'
     message['From'] = sender_email
-    print(recipient_data)
     message['To'] = recipient_data['emailAddress']
 
     message_parts = build_message_parts(recipient_data, meeting_details, time)
