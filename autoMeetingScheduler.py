@@ -91,7 +91,7 @@ def build_request_body(time):
             "mute_upon_entry": True,
             "approval_type": 2,
             "audio": "voip",
-            "alternative_hosts": 's.twomey@leadership.ac.nz',
+            "alternative_hosts": 's.russell@leadership.ac.nz',
             "waiting_room": False,
             "meeting_authentication": False,
         }
@@ -206,6 +206,7 @@ def send_meeting_email(recipient_data, meeting_details, time):
     message = MIMEMultipart('alternative')
     message['Subject'] = "Morning Check In" if time == 'morning' else 'Evening Check Out'
     message['From'] = sender_email
+    print(recipient_data)
     message['To'] = recipient_data['emailAddress']
 
     message_parts = build_message_parts(recipient_data, meeting_details, time)
