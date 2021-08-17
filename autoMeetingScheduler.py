@@ -44,49 +44,24 @@ recipients = [
         "colour": green
     },
     {
-        "name": "Swetha",
-        "emailAddress": "s.thomas@leadership.ac.nz",
-        "colour": yellow
-    },
-    {
-        "name": "Geoff",
-        "emailAddress": "g.lorigan@leadership.ac.nz",
-        "colour": red
-    },
-    {
         "name": "Sythey",
         "emailAddress": "s.russell@leadership.ac.nz",
         "colour": yellow
     },
     {
-        "name": "Demian",
-        "emailAddress": "d.rosenthal@leadership.ac.nz",
-        "colour": yellow
-    },
-    {
-        "name": "Laksitha",
-        "emailAddress": "l.siriwardena@leadership.ac.nz",
-        "colour": yellow
-    },
-    {
-        "name": "Kasun",
-        "emailAddress": "k.wickramanayake@leadership.ac.nz",
-        "colour": yellow
-    },
-    {
-        "name": "Eswari",
-        "emailAddress": "p.thirumeni@leadership.ac.nz",
-        "colour": yellow
-    },
-    {
         "name": "John",
         "emailAddress": "j.wadsworth@leadership.ac.nz",
-        "colour": yellow
+        "colour": red
     },
     {
-        "name": "Divya",
-        "emailAddress": "d.somashekarappa@leadership.ac.nz",
-        "colour": yellow
+        "name": "Kavindi",
+        "emailAddress": "k.nagahawatte@leadership.ac.nz",
+        "colour": green
+    },
+    {
+        "name": "Bianca",
+        "emailAddress": "b.kulbegovic@leadership.ac.nz",
+        "colour": red
     },
 ]
 
