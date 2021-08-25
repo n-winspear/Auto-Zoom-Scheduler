@@ -63,6 +63,11 @@ recipients = [
         "emailAddress": "b.kulbegovic@leadership.ac.nz",
         "colour": red
     },
+    {
+        "name": "Team",
+        "emailAddress": "leaderlabteam@leadership.ac.nz",
+        "colour": green
+    },
 ]
 
 
