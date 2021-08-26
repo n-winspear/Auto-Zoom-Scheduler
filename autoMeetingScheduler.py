@@ -39,13 +39,6 @@ red = "#E12729"
 
 recipients = [
     {
-        "name": "Geoff",
-        "emailAddress": "g.lorgian@leadership.ac.nz",
-        "colour": red
-    },
-]
-"""
-    {
         "name": "John",
         "emailAddress": "j.wadsworth@leadership.ac.nz",
         "colour": red
@@ -70,9 +63,7 @@ recipients = [
         "emailAddress": "b.kulbegovic@leadership.ac.nz",
         "colour": red
     },
-
 ]
-"""
 
 def generate_password():
     password_length = 8
