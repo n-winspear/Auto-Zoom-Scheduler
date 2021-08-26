@@ -39,6 +39,28 @@ red = "#E12729"
 
 recipients = [
     {
+        "name": "John",
+        "emailAddress": "j.wadsworth@leadership.ac.nz",
+        "colour": red
+    },
+    {
+        "name": "Geoff",
+        "emailAddress": "g.lorgian@leadership.ac.nz",
+        "colour": red
+    },
+    {
+        "name": "Gareth",
+        "emailAddress": "gareth.lorigan@leadership-au.com",
+        "colour": yellow
+    },
+    {
+        "name": "Team",
+        "emailAddress": "leaderlabteam@leadership.ac.nz",
+        "colour": green
+    }
+]
+"""
+    {
         "name": "Nathan",
         "emailAddress": "n.winspear@leadership.ac.nz",
         "colour": green
@@ -48,11 +70,9 @@ recipients = [
         "emailAddress": "s.russell@leadership.ac.nz",
         "colour": yellow
     },
-    {
-        "name": "John",
-        "emailAddress": "j.wadsworth@leadership.ac.nz",
-        "colour": red
-    },
+    """
+    
+    """
     {
         "name": "Kavindi",
         "emailAddress": "k.nagahawatte@leadership.ac.nz",
@@ -63,13 +83,9 @@ recipients = [
         "emailAddress": "b.kulbegovic@leadership.ac.nz",
         "colour": red
     },
-    {
-        "name": "Team",
-        "emailAddress": "leaderlabteam@leadership.ac.nz",
-        "colour": green
-    },
-]
 
+]
+"""
 
 def generate_password():
     password_length = 8
