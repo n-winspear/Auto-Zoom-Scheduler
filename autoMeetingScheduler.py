@@ -39,27 +39,17 @@ red = "#E12729"
 
 recipients = [
     {
-        "name": "John",
-        "emailAddress": "j.wadsworth@leadership.ac.nz",
-        "colour": red
-    },
-    {
         "name": "Geoff",
         "emailAddress": "g.lorgian@leadership.ac.nz",
         "colour": red
     },
-    {
-        "name": "Gareth",
-        "emailAddress": "gareth.lorigan@leadership-au.com",
-        "colour": yellow
-    },
-    {
-        "name": "Team",
-        "emailAddress": "leaderlabteam@leadership.ac.nz",
-        "colour": green
-    }
 ]
 """
+    {
+        "name": "John",
+        "emailAddress": "j.wadsworth@leadership.ac.nz",
+        "colour": red
+    },
     {
         "name": "Nathan",
         "emailAddress": "n.winspear@leadership.ac.nz",
@@ -70,9 +60,6 @@ recipients = [
         "emailAddress": "s.russell@leadership.ac.nz",
         "colour": yellow
     },
-    """
-    
-    """
     {
         "name": "Kavindi",
         "emailAddress": "k.nagahawatte@leadership.ac.nz",
